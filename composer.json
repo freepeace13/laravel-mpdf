@@ -26,6 +26,13 @@
         "orchestra/canvas": "^8.12",
         "phpunit/phpunit": "^9.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freepeace\\LaravelMpdf\\LaravelMpdfServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Freepeace\\LaravelMpdf\\": "src"
@@ -39,7 +46,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
