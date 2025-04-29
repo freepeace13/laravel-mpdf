@@ -1,0 +1,27 @@
+preset: package
+
+namespace: Freepe\LaravelMpdf
+user-auth-model: App\Models\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: Freepe\LaravelMpdf\Console
+
+model:
+  namespace: Freepe\LaravelMpdf\Models
+
+provider:
+  namespace: Freepe\LaravelMpdf\Providers
+
+testing:
+  namespace: Freepe\LaravelMpdf\Tests
