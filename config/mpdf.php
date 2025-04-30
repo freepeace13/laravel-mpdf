@@ -1,13 +1,15 @@
 <?php
 
 return [
-    'debug' => true,
+    'debug' => env('LARAVEL_MPDF_DEBUG', false),
 
     'mode' => 'utf-8',
 
     'allow_output_buffering' => true,
 
-    'format' => 'A4',
+    'temp_dir' => env('LARAVEL_MPDF_TEMP_DIR', sys_get_temp_dir()),
+
+    'format' => env('LARAVEL_MPDF_FORMAT', 'A4'),
 
     'formats' => [
         'A4' => [
@@ -35,17 +37,9 @@ return [
         ],
     ],
 
-    'theme' => 'default',
-
-    'themes' => [
-        'default' => [
-            'font-family' => 'sans-serif',
-            'margin-left' => 0,
-            'margin-right' => 0,
-            'margin-top' => 0,
-            'margin-bottom' => 0,
-            'margin-header' => 0,
-            'margin-footer' => 0,
-        ],
-    ],
+    'composers' => [
+        // Register composer classes here that extends Freepeace\Support\Composer
+        // Composers defined formats and configuration intended for specific purpose
+        // For example, you can define a composer for a specific report or invoice
+    ]
 ];
