@@ -1,9 +1,9 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Support\Components;
+namespace LaravelMpdf\Support\Components;
 
 use Closure;
-use Freepeace\LaravelMpdf\Support\Components\Contracts\ScopedComponentManager;
+use LaravelMpdf\Support\Components\Contracts\ScopedComponentManager;
 use ReflectionClass;
 use ReflectionMethod;
 

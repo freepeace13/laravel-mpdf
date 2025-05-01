@@ -1,9 +1,9 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Support\Components\Contracts;
+namespace LaravelMpdf\Support\Components\Contracts;
 
 use Closure;
-use Freepeace\LaravelMpdf\Support\Components\Component;
+use LaravelMpdf\Support\Components\Component;
 
 interface ScopedComponentManager
 {

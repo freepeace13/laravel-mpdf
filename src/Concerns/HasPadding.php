@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Concerns;
+namespace LaravelMpdf\Concerns;
 
 trait HasPadding
 {

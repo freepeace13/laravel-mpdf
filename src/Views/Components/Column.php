@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Views\Components;
+namespace LaravelMpdf\Views\Components;
 
 class Column extends Container
 {

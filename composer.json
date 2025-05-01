@@ -29,18 +29,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Freepeace\\LaravelMpdf\\LaravelMpdfServiceProvider"
+                "LaravelMpdf\\LaravelMpdfServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Freepeace\\LaravelMpdf\\": "src"
+            "LaravelMpdf\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Freepeace\\LaravelMpdf\\Tests\\": "tests"
+            "LaravelMpdf\\Tests\\": "tests"
         }
     },
     "scripts": {

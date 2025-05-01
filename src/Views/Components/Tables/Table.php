@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Views\Components\Tables;
+namespace LaravelMpdf\Views\Components\Tables;
 
 use Illuminate\View\Component;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Tables;
+namespace LaravelMpdf\Tables;
 
-use Freepeace\LaravelMpdf\Support\Components\ViewComponent;
+use LaravelMpdf\Support\Components\ViewComponent;
 
 class Table extends ViewComponent
 {

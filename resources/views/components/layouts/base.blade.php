@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <!-- content here -->
+    {{ $slot}}
 </body>
 
 </html>

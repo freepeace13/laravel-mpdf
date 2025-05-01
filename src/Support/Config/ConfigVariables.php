@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpdf\Config;
+namespace LaravelMpdf\Support\Config;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Arrayable;

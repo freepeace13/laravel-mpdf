@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf;
+namespace LaravelMpdf;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

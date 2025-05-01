@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf;
+namespace LaravelMpdf;
 
 use Mpdf\Mpdf;
 

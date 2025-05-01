@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Views\Components\Layouts;
+namespace LaravelMpdf\Views\Components\Layouts;
 
 use Illuminate\View\Component;
 

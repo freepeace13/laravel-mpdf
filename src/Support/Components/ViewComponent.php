@@ -1,6 +1,6 @@
 <?php
 
-namespace Freepeace\LaravelMpdf\Support\Components;
+namespace LaravelMpdf\Support\Components;
 
 use Closure;
 use Exception;
