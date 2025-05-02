@@ -1,6 +1,6 @@
 preset: package
 
-namespace: Freepeace\LaravelMpdf
+namespace: LaravelMpdf
 user-auth-model: App\Models\User
 
 paths:
@@ -15,13 +15,13 @@ migration:
   prefix: ''
 
 console:
-  namespace: Freepeace\LaravelMpdf\Console
+  namespace: LaravelMpdf\Console
 
 model:
-  namespace: Freepeace\LaravelMpdf\Models
+  namespace: LaravelMpdf\Models
 
 provider:
-  namespace: Freepeace\LaravelMpdf\Providers
+  namespace: LaravelMpdf\Providers
 
 testing:
-  namespace: Freepeace\LaravelMpdf\Tests
+  namespace: LaravelMpdf\Tests

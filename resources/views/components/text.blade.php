@@ -1,0 +1,1 @@
+<{{ $tag }} {{ $attributes->except('value') }}>{{ $attributes->get('value') }}</{{ $tag }}>

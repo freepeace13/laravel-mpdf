@@ -30,6 +30,7 @@ class Page
     {
         return array_reduce($this->blocks, function ($carry, $block) {
             $carry .= $block->render() . '\\n';
+
             return $carry;
         }, '');
     }

@@ -16,20 +16,22 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/contracts": "^8.0|^9.0|^10.0",
-        "illuminate/support": "^8.0|^9.0|^10.0",
-        "mpdf/mpdf": "^8.2"
+        "php": "^8.1",
+        "illuminate/contracts": "^9.0",
+        "illuminate/support": "^9.0",
+        "mpdf/mpdf": "^8.2.5"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0|^7.0|^8.0",
-        "orchestra/canvas": "^8.12",
+        "laravel/pint": "^1.20",
+        "orchestra/canvas": "^7.12",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.23",
         "phpunit/phpunit": "^9.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelMpdf\\LaravelMpdfServiceProvider"
+                "LaravelMpdf\\Providers\\LaravelMpdfServiceProvider"
             ]
         }
     },
@@ -44,10 +46,13 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+        "pint": "vendor/bin/pint --config pint.json",
+        "test": "vendor/bin/pest"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }

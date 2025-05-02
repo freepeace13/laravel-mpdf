@@ -2,8 +2,6 @@
 
 namespace LaravelMpdf\Support\Composers;
 
-use LaravelMpdf\Support\Composers\Page;
-
 abstract class Composer
 {
     protected string $layout = 'laravel-mpdf::base';
@@ -17,7 +15,7 @@ abstract class Composer
 
     protected function withData()
     {
-        $content = array_map(fn(Page $page) => $page->render(), $this->compose());
+        $content = array_map(fn (Page $page) => $page->render(), $this->compose());
 
         return [
             'content' => $content,

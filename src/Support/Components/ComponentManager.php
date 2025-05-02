@@ -34,7 +34,7 @@ class ComponentManager implements ScopedComponentManager
 
         app()->singletonIf(
             ComponentManager::class,
-            fn() => new ComponentManager,
+            fn () => new ComponentManager,
         );
 
         return app(ComponentManager::class);
@@ -121,7 +121,7 @@ class ComponentManager implements ScopedComponentManager
             $reflection = new ReflectionClass($component);
 
             $this->methodCache[$component::class] = array_map(
-                fn(ReflectionMethod $method): string => $method->getName(),
+                fn (ReflectionMethod $method): string => $method->getName(),
                 $reflection->getMethods(ReflectionMethod::IS_PUBLIC),
             );
         }

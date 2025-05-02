@@ -41,5 +41,5 @@ return [
         // Register composer classes here that extends Freepeace\Support\Composer
         // Composers defined formats and configuration intended for specific purpose
         // For example, you can define a composer for a specific report or invoice
-    ]
+    ],
 ];

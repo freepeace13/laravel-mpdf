@@ -73,7 +73,7 @@ class ConfigVariables implements Arrayable, ArrayAccess
             // 'defaultCSS' => DefaultCss::$definition,
             // 'defaultCssFile' => __DIR__ . '/../../data/mpdf.css',
             'pdf_version' => '1.4',
-            'cacheCleanupInterval' => 3600
+            'cacheCleanupInterval' => 3600,
         ];
     }
 
