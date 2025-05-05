@@ -2,7 +2,7 @@
 
 namespace LaravelMpdf;
 
-class Footer
+class Footer extends Block
 {
     //
 }
