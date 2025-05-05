@@ -1,0 +1,291 @@
+body {
+    font-family: 'DejaVu Sans';
+    font-size: 9pt;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.main-header {
+    height: 30mm;
+    width: 75mm;
+    margin-left: 105mm;
+    border: 1px solid #ccc;
+}
+
+.main-header-img {
+    margin-bottom: 5mm;
+    margin-top: 5mm;
+    height: 20mm;
+    border: 1px solid #ccc;
+}
+
+.main-footer {
+    height: 16mm;
+    margin-left: 5mm;
+    margin-right: 10mm;
+    border: 1px solid #ccc;
+}
+
+
+@page {
+    header: html_mainheader;
+    footer: html_mainfooter;
+    margin-top: 48.4mm;
+    margin-left: 20mm;
+    margin-right: 10mm;
+    margin-bottom: 31mm;
+    margin-header: 10mm;
+    margin-footer: 10mm;
+}
+
+@page :first {
+    header: _blank;
+    margin-top: 45mm;
+    /* margin-header: 0 */
+}
+
+.content {
+    margin-left: 5mm;
+    margin-right: 10mm;
+    width: 100%;
+}
+
+.address-block {
+    height: 45mm;
+    width: 85mm;
+    float: left;
+}
+
+.address-block-return {
+    height: 5mm;
+}
+
+.address-block-additional-note {
+    height: 12.7mm;
+}
+
+.address-block-recipient {
+    height: 27.3mm;
+}
+
+.info-block {
+    height: 45mm;
+    width: 75mm;
+    float: left;
+    padding-top: 5mm;
+    margin-left: 20mm;
+}
+
+.info-block-img {
+    height: 22mm;
+    border: 1px solid #ccc;
+}
+
+.info-block-biller {
+    height: 18mm;
+    padding-top: 2mm;
+    text-align: center;
+}
+
+.items-breakdown,
+.items-summary {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: separate;
+}
+
+.items-breakdown th,
+.items-summary th,
+.items-breakdown td,
+.items-summary td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #fff;
+}
+
+.items-summary-wrapper {
+    page-break-inside: avoid;
+    padding-left: 5mm;
+    padding-right: 10mm;
+}
+
+.items-page-breaker {
+    height: 38mm;
+    border: 1px solid #ccc;
+}
+
+.closing-remarks {
+    border: 1px solid #ccc;
+    position: absolute;
+    max-height: 40mm;
+    bottom: 31mm;
+    left: 25mm;
+    right: 20mm;
+}
+
+.pagenum {
+    text-align: center;
+    margin-bottom: 3mm;
+    font-size: 8pt;
+}
+
+/* Typography */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/** Layouts */
+.grid {
+    clear: both;
+}
+
+.grid .grid-cols-2,
+.grid .grid-cols-3,
+.grid .gric-cols-4 {
+    float: left;
+}
+
+.grid .grid-cols-2 {
+    width: 50%;
+}
+
+.grid .grid-cols-3 {
+    width: 33.33%;
+}
+
+.grid .grid-cols-4 {
+    width: 25%;
+}
+
+/** Borders */
+.border {
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+.border-x {
+    border-color: #ccc;
+    border-style: solid;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.border-b {
+    border-color: #ccc;
+    border-style: solid;
+    border-bottom: 1px;
+}
+
+.rounded {
+    border-radius: .12cm;
+}
+
+/* Paddings */
+.pl-1 {
+    padding-left: .5rem;
+}
+
+.pl-2 {
+    padding-left: 1rem;
+}
+
+.pl-3 {
+    padding-left: 1.5rem;
+}
+
+.pb-1 {
+    padding-bottom: .5rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
+}
+
+.pb-3 {
+    padding-bottom: 1.5rem;
+}
+
+.pr-1 {
+    padding-bottom: .5rem;
+}
+
+.pr-2 {
+    padding-bottom: 1rem;
+}
+
+.pr-3 {
+    padding-bottom: 1.5rem;
+}
+
+.px-1 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.px-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Margins */
+.mb-1 {
+    margin-bottom: .5rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-1 {
+    margin-top: .5rem;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+.my-1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.my-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/** Misc */
+.clear {
+    clear: both;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}

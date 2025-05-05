@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 
 trait HasChildren
 {
-    protected array $children = [];
+    public array $children = [];
 
     public function setChildren(array $children): static
     {
